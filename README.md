@@ -5,6 +5,8 @@ Non-reference video quality assessment metric.
 
 <p align="justify"> We partition video frames into global and local patches. The local patch represents the part of the frame inside the region of interest, while the global patch represents the rest of the frame. Using human visual system models, we extract spatial and temporal characteristics for each frame (2D). After splitting into patches, the global patch passes through the peripheral vision model, which allows considering the change of contrast sensitivity threshold in some regions of the frame depending on the distance of the region of interest from the supposed centre of gaze (in our case, from the centre of the region of interest). The local patch is filtered by a model of contrast sensitivity of the human visual system without considering the peripheral component.
 
+
+
 ![Alt text](Resources/predictor.png)
 
 <p align="justify">Finally, the merged features (joining channels) from the videos are processed by a time series network that efficiently captures perceptual quality changes over time and predicts one quality score for each video.

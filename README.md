@@ -20,4 +20,4 @@ Non-reference video quality assessment metric.
 
 # Contact information
 
-If you would like more information, feel free to email your request to vladimir.a.mazin@gmail.com.
+If you would like more information, feel free to email your request to amozhaeva@eit.ac.nz
